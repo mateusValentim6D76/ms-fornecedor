@@ -9,7 +9,7 @@ import br.com.mv.fornecedor.repository.InfoFornecedorRepository;
 @Service
 public class InfoFornecedorService {
 
-	@Autowired
+	@Autowired(required = true)
 	private InfoFornecedorRepository infoFornecedorRepository;
 
 	public InfoFornecedor getFindByEstado(String estado) {
