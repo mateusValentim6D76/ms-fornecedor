@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: 'fornecedor'
+  cloud:
+    config:
+      enabled: false
+
 eureka:
   client:
     fetch-registry: true
